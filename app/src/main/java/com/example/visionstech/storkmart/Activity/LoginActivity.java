@@ -17,7 +17,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
-
+//todo:the image not complete
 
 
     @BindView(R.id.login_btn_Login)

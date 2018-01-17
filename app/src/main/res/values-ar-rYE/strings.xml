@@ -16,4 +16,6 @@
     <string name="userName">إسم المستخدم</string>
     <string name="login">دخول</string>
     <string name="Enterasavisitor">أدخل كزائر</string>
+    <string name="RigisterNewAccount">تسجيل حساب جديد</string>
+    <string name="signUp">تسجل</string>
 </resources>

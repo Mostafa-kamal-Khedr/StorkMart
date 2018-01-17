@@ -14,7 +14,8 @@ import com.example.visionstech.storkmart.R;
 import butterknife.ButterKnife;
 
 public class RegisterActivity extends AppCompatActivity {
-
+    //todo:Goback not working
+    //todo:Image not complete
 
 
     @Override

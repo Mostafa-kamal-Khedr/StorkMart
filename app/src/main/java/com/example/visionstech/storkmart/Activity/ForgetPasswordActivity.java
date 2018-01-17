@@ -22,7 +22,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class ForgetPasswordActivity extends AppCompatActivity implements View.OnClickListener {
-
+//todo:exit button not working
     public static String emailPattern = "^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
     private String userEmail;
     @BindView(R.id.btn_forgetPassword_btn)
