@@ -14,4 +14,6 @@
     <string name="contactUsMessage">اذا واجهتك مشكلة بامكانك التواصل معنا</string>
     <string name="forgetPassword">استرجاع كلمة المرور</string>
     <string name="userName">إسم المستخدم</string>
+    <string name="login">دخول</string>
+    <string name="Enterasavisitor">أدخل كزائر</string>
 </resources>
