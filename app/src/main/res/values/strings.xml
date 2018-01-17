@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">StockMart</string>
+    <string name="HomeTitle">StockMart Provides your own needs in an easy and secure way</string>
+    <string name="Enterasavisitor">Enter as a visitor</string>
+    <string name="login">Login</string>
+    <string name="signUp">SignUp</string>
+    <string name="RigisterNewAccount">Register a new account</string>
+    <string name="phone">Phone</string>
+    <string name="Password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="date">Date</string>
+    <string name="Email">Email</string>
+    <string name="shared_prefs_name" translatable="false">storkMart</string>
+    <string name="address">Address</string>
+
+    <string name="sendCodeHint">To confirm the activation code will be sent to your mobile</string>
+    <string name="SignUp">Sign Up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgetPassword">Forget Password</string>
+
+    <string name="recieveEmailToChangePassword">You will receive a link to change your password when you click on it. You can change your password</string>
+    <string name="contactUsMessage">If you have a problem you can contact us</string>
+
+
+    <string name="ara">ar</string>
+    <string name="eng">en</string>
+    <string name="language">language</string>
+    <string name="SendCodeHint">To confirm the activation code will be sent to your mobile</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="sections">Sections</string>
+    <string name="myOrders">My Orders</string>
+    <string name="accountStatment">Account Statment</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="offers">Offers And Disscount</string>
+    <string name="settings">Settings</string>
+    <string name="Complaints">Complaints</string>
+    <string name="userName">User Name</string>
+
+</resources>

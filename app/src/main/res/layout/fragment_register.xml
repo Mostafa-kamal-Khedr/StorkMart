@@ -1,0 +1,263 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.visionstech.storkmart.Fragment.RegisterFragment">
+
+    <LinearLayout
+        android:id="@+id/registerEditTextContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/registerHead"
+        android:background="#0B8ACD"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutEdtRegisterUserName"
+            style="@style/TextInputEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+
+            android:layout_marginStart="30dp"
+
+
+            >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtRegisterUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@android:color/white"
+
+                android:fontFamily="@font/cocon_nextarabiclight_0"
+
+
+                android:hint="@string/userName"
+                android:inputType="textPersonName"
+                android:paddingBottom="20dp"
+                android:singleLine="true"
+                android:textAppearance="?android:textAppearanceMedium"
+
+                />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutRegisterPhone"
+            style="@style/TextInputEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+
+            android:layout_marginStart="30dp"
+            android:layout_toRightOf="@+id/phoneImage">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtRegisterPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/cocon_nextarabiclight_0"
+
+                android:hint="@string/phone"
+
+                android:inputType="phone"
+                android:paddingBottom="20dp"
+                android:singleLine="true"
+                android:textAppearance="?android:textAppearanceMedium"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutEdtRegisterEmail"
+
+            style="@style/TextInputEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+
+            android:layout_marginStart="30dp"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtRegisterEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/cocon_nextarabiclight_0"
+
+                android:hint="@string/Email"
+                android:inputType="textEmailAddress"
+
+
+                android:paddingBottom="20dp"
+                android:singleLine="true"
+                android:textAppearance="?android:textAppearanceMedium"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutRegisterAddress"
+
+            style="@style/TextInputEditTextStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+
+            android:layout_marginStart="30dp"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtRegisterAddress"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/cocon_nextarabiclight_0"
+                android:hint="@string/address"
+
+                android:inputType="textEmailAddress"
+
+                android:paddingBottom="20dp"
+                android:singleLine="true"
+                android:textAppearance="?android:textAppearanceMedium"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutEdtRegisterPassword"
+
+            style="@style/TextInputEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+
+            android:layout_marginStart="30dp"
+
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtRegisterPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/cocon_nextarabiclight_0"
+
+                android:hint="@string/Password"
+                android:paddingBottom="20dip"
+                android:singleLine="true"
+                android:textAppearance="?android:textAppearanceMedium"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/RegisterConfirmPassword"
+            style="@style/TextInputEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+
+            android:layout_marginStart="30dp"
+
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtRegisterConfirmPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@android:color/white"
+
+                android:fontFamily="@font/cocon_nextarabiclight_0"
+                android:hint="@string/confirmPassword"
+                android:paddingBottom="20dip"
+                android:singleLine="true"
+
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColorHint="@android:color/white"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/sendCodeHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+            android:layout_marginStart="50dp"
+
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/cocon_nextarabiclight_0"
+            android:gravity="center"
+            android:text="@string/sendCodeHint"
+            android:textColor="@color/lightBlack" />
+
+
+        <Button
+            android:id="@+id/btn_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/appbar_transparent_shape"
+            android:gravity="center"
+            android:paddingEnd="50dp"
+            android:paddingStart="50dp"
+            android:text="@string/SignUp"
+            android:textColor="#0B8ACD" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

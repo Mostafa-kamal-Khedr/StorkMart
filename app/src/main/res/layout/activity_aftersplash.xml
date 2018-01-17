@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/home_bg_hdpi"
+    tools:context="com.example.visionstech.storkmart.Activity.AfterSplashActivity">
+
+
+    <ImageView
+        android:id="@+id/stockImage"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/stock_mart_logo_hdpi" />
+
+    <RelativeLayout
+        android:id="@+id/HomeTitleContainer"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stockImage"
+        android:background="@color/lightBlack">
+
+        <TextView
+            android:id="@+id/HomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/cocon_nextarabiclight_0"
+            android:inputType="textMultiLine"
+            android:paddingBottom="3dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:paddingTop="3dp"
+            android:text="@string/HomeTitle"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/loginButtonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_HomeEnterAsAVisitr"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="20dp">
+
+
+        <Button
+            android:id="@+id/btn_HomeSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/light_black_btn_shape"
+            android:paddingEnd="50dp"
+            android:paddingLeft="50dp"
+            android:onClick="goToLoginAvtivity"
+            android:fontFamily="@font/cocon_nextarabiclight_0"
+
+            android:paddingRight="50dp"
+            android:paddingStart="50dp"
+            android:text="@string/login"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btn_HomeLogin"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/orange_btn_shape"
+            android:onClick="goToSignUpAvtivity"
+            android:fontFamily="@font/cocon_nextarabiclight_0"
+
+            android:paddingEnd="50dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingStart="50dp"
+            android:text="@string/signUp"
+            android:textColor="@android:color/white"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_HomeEnterAsAVisitr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/cocon_nextarabiclight_0"
+        android:paddingEnd="45dp"
+
+        android:text="@string/Enterasavisitor"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

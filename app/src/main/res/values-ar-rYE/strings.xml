@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StockMart</string>
+    <string name="HomeTitle">ستوك مارت يوفر احتياجاتك بطريقة سهلة وامنة</string>
+    <string name="sendCodeHint">للتأكيد سوف يتم ارسال كود التفعيل على الجوال الخاص بك</string>
+    <string name="SignUp">تسجيل</string>
+    <string name="Password">الرقم السرى</string>
+    <string name="confirmPassword">تأكيد الرقم السرى</string>
+    <string name="date">التاريخ</string>
+    <string name="Email">البريد الالكترونى</string>
+    <string name="address">العنوان</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="recieveEmailToChangePassword">سوف يصلك ايميل برابط لتغيير كلمة السر عند الضغط عليه يمكنك تغيير كلمة المرور</string>
+    <string name="contactUsMessage">اذا واجهتك مشكلة بامكانك التواصل معنا</string>
+    <string name="forgetPassword">استرجاع كلمة المرور</string>
+    <string name="userName">إسم المستخدم</string>
+</resources>

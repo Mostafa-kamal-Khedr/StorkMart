@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <group android:checkableBehavior="single" >
+
+
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="@string/home" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single" >
+
+
+        <item
+            android:id="@+id/nav_sections"
+            android:icon="@drawable/ic_sections_menu_hdpi"
+            android:title="@string/sections" />
+        <item
+            android:id="@+id/nav_myOrders"
+            android:icon="@drawable/ic_myorders_menu_hdpi"
+            android:title="@string/myOrders" />
+        <item
+            android:id="@+id/nav_accountStatment"
+            android:icon="@drawable/ic_account_statement_hdpi"
+            android:title="@string/accountStatment" />
+
+
+
+
+
+    </group>
+
+
+
+
+    <group android:checkableBehavior="single" >
+
+
+        <item
+            android:id="@+id/nav_contactUs"
+            android:icon="@drawable/contact_us_hdpi"
+            android:title="@string/contactUs" />
+        <item
+            android:id="@+id/nav_offersAndDisscount"
+            android:icon="@drawable/ic_offers_and_discounts_hdpi"
+            android:title="@string/offers" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_if_setting_1814117"
+            android:title="@string/settings" />
+
+
+        <item
+            android:id="@+id/nav_Complaints"
+            android:icon="@drawable/ic_if_circle_help_question_mark_"
+            android:title="@string/Complaints" />
+
+
+    </group>
+
+
+</menu>

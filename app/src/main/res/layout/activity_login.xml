@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+
+    tools:context="com.example.visionstech.storkmart.Activity.LoginActivity"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scrollBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:scrollbars="none">
+
+
+        <!--start of registerDataContainer-->
+        <RelativeLayout
+            android:id="@+id/registerDataContainer"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="wrap_content"
+
+
+            >
+
+
+            <!--start of registerHead-->
+
+            <RelativeLayout
+                android:id="@+id/registerHead"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/basket_hdpi"
+
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/stockImage"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/stock_mart_logo_hdpi" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_above="@+id/appBarContainer"
+
+                    android:background="@android:color/white">
+
+                </View>
+
+
+                <!--start of appBarContainer-->
+                <LinearLayout
+                    android:id="@+id/appBarContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/login_btn_RegisterNewAccount"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/white"
+                        android:text="@string/RigisterNewAccount"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/cocon_nextarabiclight_0"
+
+                        android:gravity="center" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+
+                        android:background="@android:color/white">
+
+                    </View>
+
+                    <Button
+                        android:id="@+id/login_btn_Login"
+
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/white"
+                        android:text="@string/login"
+                        android:fontFamily="@font/cocon_nextarabiclight_0"
+
+                        android:background="@android:color/transparent"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+                <!--end of appBarContainer-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/appBarContainer"
+                    android:background="@android:color/white">
+
+                </View>
+
+
+            </RelativeLayout>
+            <!--end of registerHead-->
+
+
+            <!--_________________________________________________________________________-->
+
+            <!--start of registerBody-->
+
+
+            <FrameLayout
+                android:id="@+id/activity_Login_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/registerHead"
+
+
+                >
+
+
+            </FrameLayout>
+
+            <!--end of registerBody-->
+
+
+        </RelativeLayout>
+
+        <!--end of registerDataContainer-->
+
+    </ScrollView>
+
+
+</RelativeLayout>
